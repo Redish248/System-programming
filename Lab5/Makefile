@@ -1,5 +1,4 @@
 CC=gcc
-CFLAGS= -ansi -pedantic -Wall -Werror
 
 main: main.c
 	$(CC) -c main.c picture.c
